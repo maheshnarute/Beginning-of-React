@@ -10,7 +10,7 @@ class Count extends Component {
 
     handlechange() {
         this.setState({ count: this.state.count + 1 }, () => {
-            console.log(this.state.count); // This will log the updated count after state change
+            console.log(this.state.count); 
         });
     }
 
