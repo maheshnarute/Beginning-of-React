@@ -5,11 +5,13 @@ import Greate from './componant/Greate';
 import Massage from './componant/Massage';
 import FunctionClick1 from './componant/FunctionClick1';
 import EventBind from './componant/EventBind';
+import ParrentComponant from './componant/ParrentComponant';
+
 function App() {
   return (
     <div className="App">
-
-      <EventBind/>
+<ParrentComponant/>      
+      {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
       {/* <Greate name="mahesh" >
         <p> this child of props </p>
