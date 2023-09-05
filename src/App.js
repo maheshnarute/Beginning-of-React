@@ -18,8 +18,12 @@ function App() {
 {/* <ListName/> */}
 {/* <Styling display={true}/>
 <Styling classFont={true}/> */}
+<<<<<<< HEAD
 {/* <FormSubmit/> */}
 <ParrentComponant/>      
+=======
+<FormSubmit/>
+>>>>>>> main
 
 
       {/* <EventBind/> */}
