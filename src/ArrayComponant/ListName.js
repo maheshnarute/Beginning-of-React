@@ -4,6 +4,7 @@ import ListNamePersion from './ListNamePersion'
 const ListName=()=> {
     // const names=['mahesh','mangesh','swapnil','datta','adtya']
     // const nameList=names.map(name=><h2>{name}</h2>)
+    const names=[' mahesh',' mangesh',' pranali' ,' mahesh']
     const persons=[{
         id:1,
         name:'mahesh',
@@ -23,15 +24,20 @@ const ListName=()=> {
         skils:'powerbi'
     }
 ]
-const personList=persons.map(person=>(
-    <ListNamePersion key={person.id} person={person}></ListNamePersion>
-))
+// const personList=persons.map(person=>(
+//     <ListNamePersion key={person.id} person={person}></ListNamePersion>
+  
+// ))
+    const nameList=names.map((name,index)=><h2 key={index}>{index}{name}</h2>
+   )
   return (
     <div>
         {
             // names.map(name=><h2>{name}</h2>)
             // nameList
-            <div>{personList}</div>
+            // <div>{personList}</div>
+           
+            <div>{nameList}</div>
 
         }
     </div>

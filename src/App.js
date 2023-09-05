@@ -8,13 +8,19 @@ import EventBind from './componant/EventBind';
 import ParrentComponant from './componant/ParrentComponant';
 import ConditionRedering from './componant/ConditionRedering';
 import ListName from './ArrayComponant/ListName';
+import Styling from './UIPart/Styling';
+import FormSubmit from './FormSubmit';
 
 function App() {
   return (
     <div className="App">
 {/* <ParrentComponant/>       */}
 {/* <ConditionRedering/> */}
-<ListName/>
+{/* <ListName/> */}
+{/* <Styling display={true}/>
+<Styling classFont={true}/> */}
+<FormSubmit/>
+
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
       {/* <Greate name="mahesh" >
