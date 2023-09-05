@@ -20,6 +20,7 @@ function App() {
 {/* <Styling display={true}/>
 <Styling classFont={true}/> */}
 <FormSubmit/>
+<div> hello</div>
 
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
