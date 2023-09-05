@@ -14,13 +14,13 @@ import FormSubmit from './FormSubmit';
 function App() {
   return (
     <div className="App">
-{/* <ParrentComponant/>       */}
 {/* <ConditionRedering/> */}
 {/* <ListName/> */}
 {/* <Styling display={true}/>
 <Styling classFont={true}/> */}
-<FormSubmit/>
-<div> hello</div>
+{/* <FormSubmit/> */}
+<ParrentComponant/>      
+
 
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
