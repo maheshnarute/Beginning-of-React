@@ -6,11 +6,15 @@ import Massage from './componant/Massage';
 import FunctionClick1 from './componant/FunctionClick1';
 import EventBind from './componant/EventBind';
 import ParrentComponant from './componant/ParrentComponant';
+import ConditionRedering from './componant/ConditionRedering';
+import ListName from './ArrayComponant/ListName';
 
 function App() {
   return (
     <div className="App">
-<ParrentComponant/>      
+{/* <ParrentComponant/>       */}
+{/* <ConditionRedering/> */}
+<ListName/>
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
       {/* <Greate name="mahesh" >
