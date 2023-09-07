@@ -21,7 +21,7 @@ function App() {
 {/* <Styling display={true}/>
 <Styling classFont={true}/> */}
 <FormSubmit/>
-
+<UseState/>
 
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
