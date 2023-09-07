@@ -16,14 +16,12 @@ import UseState from './youtub/UseState';
 function App() {
   return (
     <div className="App">
-{/* <ParrentComponant/>       */}
 {/* <ConditionRedering/> */}
 {/* <ListName/> */}
 {/* <Styling display={true}/>
 <Styling classFont={true}/> */}
-{/* <FormSubmit/> */}
-{/* <Books/> */}
-<UseState/>
+<FormSubmit/>
+
 
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
