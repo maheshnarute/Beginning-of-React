@@ -12,6 +12,8 @@ import Styling from './UIPart/Styling';
 import FormSubmit from './FormSubmit';
 import Books from './Udemy/Books';
 import UseState from './youtub/UseState';
+import GetInputBox from './youtub/GetInputBox';
+import HideShow from './youtub/HideShow';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
 {/* <ListName/> */}
 {/* <Styling display={true}/>
 <Styling classFont={true}/> */}
-<FormSubmit/>
-<UseState/>
+{/* <FormSubmit/> */}
+{/* <UseState/> */}
+{/* <GetInputBox /> */}
+<HideShow/>
 
       {/* <EventBind/> */}
       {/* <FunctionClick1 /> */}
